@@ -6,7 +6,7 @@ const Pesquisa = () => {
             Nome: 'aaa',
             Email: 'bbb',
             Whatsapp: 'ccc',
-            Sugestão: 'ddd'
+            Sugestao: 'ddd'
         }
         
         const response = await fetch('/api/save', {
